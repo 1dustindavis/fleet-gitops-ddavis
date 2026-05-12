@@ -30,7 +30,7 @@ org_settings:
   webhook_settings:
     activities_webhook:
       enable_activities_webhook: true
-      destination_url: example.com/webhook
+      destination_url: htts://example.com/webhook
 
   server_settings:
     ###########################################################
