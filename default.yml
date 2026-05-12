@@ -21,7 +21,16 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: ddavis
+    org_name: GitOpsOrg
+    fleet_desktop:
+      transparency_url: https://catoftheday.com
+    host_expiry_settings:
+      host_expiry_enabled: true
+      host_expiry_window: 30
+    webhook_settings:
+      activities_webhook:
+        enable_activities_webhook: true
+        destination_url: example.com/webhook
 
   server_settings:
     ###########################################################
