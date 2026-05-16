@@ -1,17 +1,17 @@
 name: "Apply latest configuration to Fleet"
 
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - "**"
-  pull_request:
-    paths:
-      - "**"
-  workflow_dispatch: # allows manual triggering
-  schedule:
-    - cron: "0 6 * * *" # Nightly 6AM UTC
+# on:
+#   push:
+#     branches:
+#       - main
+#     paths:
+#       - "**"
+#   pull_request:
+#     paths:
+#       - "**"
+#   workflow_dispatch: # allows manual triggering
+#   schedule:
+#     - cron: "0 6 * * *" # Nightly 6AM UTC
 
 # Prevent concurrent runs of this workflow.
 concurrency:
